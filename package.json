@@ -10,17 +10,17 @@
         "test": "jest"
     },
     "engines": {
-        "node": ">=10"
+        "node": ">=18"
     },
     "dependencies": {
         "commander": "^5.0.0",
         "consola": "^2.11.3",
         "generate-sourcemap": "^0.0.2",
-        "glob": "^7.1.6",
-        "gzip-size": "^5.1.1",
+        "glob": "^11.0.0",
         "javascript-stringify": "^2.0.1",
         "jsesc": "^3.0.1",
         "lodash.merge": "^4.6.2",
+        "puppeteer": "^24.0.0",
         "terser": "^5.15.0"
     },
     "lint-staged": {
@@ -67,8 +67,5 @@
         "jest": "^26.1.0",
         "lint-staged": "^10.1.0",
         "prettier": "^2.0.2"
-    },
-    "optionalDependencies": {
-        "puppeteer": "^2.1.1"
     }
 }
